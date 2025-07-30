@@ -1,9 +1,9 @@
-public class stock {
+public class Stock {
     private final String symbol;
     private Double marketPrice;
     private final String companyName;
 
-    public stock(String symbol, Double marketPrice, String companyName) {
+    public Stock(String symbol, Double marketPrice, String companyName) {
         this.symbol = symbol;
         this.marketPrice = marketPrice;
         this.companyName = companyName;
